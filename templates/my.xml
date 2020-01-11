@@ -1,0 +1,13 @@
+<templateSet group="my">
+  <template name="/**" value="/** &#10; * $description$&#10; * @author  $user$&#10; * $Date$ $time$&#10; * @version  1.0&#10; * @param $param$&#10; * @return $return$&#10; **/" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="description" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="user" expression="" defaultValue="&quot;lb&quot;" alwaysStopAt="true" />
+    <variable name="Date" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="time" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>
